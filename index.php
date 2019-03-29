@@ -2,6 +2,8 @@
 require_once 'ControleRemoto.class.php';
 $controle = new ControleRemoto();
 
+//$controle->setLigado(); //Um dos motivos de se usar o encapsu
+
 $controle->abrirMenu();
 echo "<br><br> Ligando a TV<br>";
 $controle->ligar();
@@ -9,6 +11,15 @@ $controle->play();
 $controle->abrirMenu();
 
 echo "<br><br> Aumentando o volume<br>";
+$controle->maisVolume();
+$controle->maisVolume();
+$controle->maisVolume();
+$controle->maisVolume();
+$controle->maisVolume();
+$controle->maisVolume();
+$controle->maisVolume();
+$controle->maisVolume();
+$controle->maisVolume();
 $controle->maisVolume();
 $controle->abrirMenu();
 $controle->maisVolume();
